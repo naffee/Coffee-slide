@@ -72,7 +72,8 @@ document.addEventListener('DOMContentLoaded', () => {
         const endX = e.type === 'touchend' ? e.changedTouches[0].clientX : e.clientX;
         const diff = startX - endX;
 
-        if (Math.abs(diff) > 50) {
+        // More sensitive threshold for easier swiping (30px instead of 50px)
+        if (Math.abs(diff) > 30) {
             if (diff > 0) {
                 nextDrink();
             } else {
