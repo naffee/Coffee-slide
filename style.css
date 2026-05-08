@@ -185,9 +185,11 @@ body {
         height: 320px;
         border-radius: 40px;
         padding: 2rem 1.5rem;
-        position: relative; /* Switch to relative for easier centering */
+        position: absolute;
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
         bottom: auto;
-        margin-top: 100px; /* Space for the drink above */
     }
 
     .drink {
