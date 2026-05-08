@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee Selection | Premium Drink Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="container">
+        <div class="drinks-wrapper">
+            <div class="drink active" data-name="Caramel Crunch" data-price="$5.50" data-description="Sweet caramel sauce blended with coffee and topped with crunchy honeycomb pieces." data-color="#b5835a">
+                <img src="assets/caramel_crunch-removebg-preview.png" alt="Caramel Crunch">
+            </div>
+            <div class="drink" data-name="Cookies & Cream" data-price="$6.00" data-description="A creamy blend of white chocolate and crushed chocolate cookies for a nostalgic treat." data-color="#3d3d3d">
+                <img src="assets/cookies_cream-removebg-preview.png" alt="Cookies & Cream">
+            </div>
+            <div class="drink" data-name="Mango Passion" data-price="$5.75" data-description="Refreshing tropical mango blended with tangy passion fruit for a vibrant summer vibe." data-color="#ff9f1c">
+                <img src="assets/mango_passion-removebg-preview.png" alt="Mango Passion">
+            </div>
+            <div class="drink" data-name="Matcha Bliss" data-price="$5.95" data-description="Premium Japanese green tea whisked into creamy milk for a smooth, earthy energy boost." data-color="#606c38">
+                <img src="assets/matcha_bliss-removebg-preview.png" alt="Matcha Bliss">
+            </div>
+            <div class="drink" data-name="Mocha Fudge" data-price="$5.80" data-description="Rich dark chocolate and espresso swirled with fudge for the ultimate chocolate lover's dream." data-color="#432818">
+                <img src="assets/mocha_fudge-removebg-preview.png" alt="Mocha Fudge">
+            </div>
+            <div class="drink" data-name="Strawberries & Cream" data-price="$5.50" data-description="Fresh summer strawberries blended with sweet cream for a light and fruity indulgence." data-color="#ae2012">
+                <img src="assets/strawberries_cream-removebg-preview.png" alt="Strawberries & Cream">
+            </div>
+        </div>
+
+        <div class="floating-card">
+            <button class="nav-btn prev-btn">&lt;</button>
+            <div class="drink-info">
+                <h1 id="drink-name">Caramel Crunch</h1>
+                <p id="drink-price">$5.50</p>
+                <p id="drink-description">Sweet caramel sauce blended with coffee and topped with crunchy honeycomb pieces.</p>
+                <button class="order-btn">Order Now</button>
+            </div>
+            <button class="nav-btn next-btn">&gt;</button>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
